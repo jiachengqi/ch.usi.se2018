@@ -16,8 +16,8 @@ public class MathOperationsTest {
 
     @Test
     public void testAdd1(){
-        double expected = 4.0;
-        double actual = add(2.5,1.5);
+        double expected = 6.0;
+        double actual = add(3.0,3.0);
         assertEquals(expected,actual,0.0000001);
     }
 
