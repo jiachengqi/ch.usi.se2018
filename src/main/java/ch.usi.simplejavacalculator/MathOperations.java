@@ -1,5 +1,7 @@
 package ch.usi.simplejavacalculator;
 
+import org.apache.commons.math3.util.FastMath;
+
 public class MathOperations {
 
 
@@ -51,8 +53,7 @@ public class MathOperations {
     }
 
     protected static Double tan(Double num1) {
-        //TODO
-        return 0.0;
+        return FastMath.tan(num1);
     }
 
     protected static Double log(Double num1) {
