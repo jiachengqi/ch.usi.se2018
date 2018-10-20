@@ -21,4 +21,25 @@ public class MathOperationsTest {
         assertEquals(expected,actual,0.0000001);
     }
 
+    @Test
+    public void testOneDevidedBy(){
+        double expected = Double.POSITIVE_INFINITY;
+        double actual = oneDevidedBy(0.0);
+        assertEquals(expected,actual,0.0000001);
+    }
+
+    @Test
+    public void testOneDevidedBy1(){
+        double expected = 1;
+        double actual = oneDevidedBy(1.0);
+        assertEquals(expected,actual,0.0000001);
+    }
+
+    @Test
+    public void testOneDevidedBy2(){
+        double expected = 0.01;
+        double actual = oneDevidedBy(100.0);
+        assertEquals(expected,actual,0.0000001);
+    }
+
 }
