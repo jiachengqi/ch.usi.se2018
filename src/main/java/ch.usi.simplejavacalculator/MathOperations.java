@@ -38,8 +38,7 @@ public class MathOperations {
     }
 
     protected static Double oneDevidedBy(Double num1) {
-        //TODO
-        return 0.0;
+        return 1 / num1;
     }
 
     protected static Double cos(Double num1) {
