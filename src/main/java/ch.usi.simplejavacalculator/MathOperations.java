@@ -15,7 +15,7 @@ public class MathOperations {
     }
     protected static Double multiply(Double num1, Double num2) {
         //TODO
-        return 0.0;
+        return num1 * num2;
     }
     protected static Double divide(Double num1, Double num2) {
         //TODO
@@ -23,7 +23,7 @@ public class MathOperations {
     }
     protected static Double xpowerofy(Double num1, Double num2) {
         //TODO
-        return 0.0;
+        return Math.pow(num1,num2);
     }
 
     protected static Double square(Double num1) {
